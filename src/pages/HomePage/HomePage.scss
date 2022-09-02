@@ -1,0 +1,25 @@
+.homeContainer {
+  flex: 6;
+}
+
+.widget__container {
+  display: flex;
+  gap: 20px;
+  margin: 20px;
+
+}
+.charts {
+  display: flex;
+  gap: 20px;
+  margin: 20px;
+
+}
+.table {
+  margin: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  &__title {
+    padding: 30px 30px;
+    color: #3d3d3d;
+  }
+}

@@ -1,0 +1,66 @@
+.dataTable {
+  height: 80vh;
+  width: auto;
+  padding: 20px;
+
+
+  &__buttons {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    width: 300px;
+
+    &-view {
+      border-radius: 5px;
+      border: 1px dotted gray;
+      background: #ffffff;
+      padding: 8px;
+      font-size: 23px;
+      cursor: pointer;
+    }
+
+    &-delete {
+      border-radius: 5px;
+      border: 1px dotted gray;
+      background: #ffffff;
+      padding: 8px;
+      font-size: 23px;
+      color: #da0303;
+      cursor: pointer;
+    }
+
+  }
+}
+
+.dateTable__username {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+
+  &-img {
+    width: 55px;
+    height: 55px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  &-passive {
+    color: #930c0c;
+    background-color: rgba(255, 0, 0, 0.45);
+    border-radius: 10px;
+    padding: 3px 5px;
+  }
+  &-active {
+    color: #0c770c;
+    background-color: rgba(0, 185, 0, 0.4);
+    border-radius: 10px;
+    padding: 3px 5px;
+  }
+  &-pending {
+    color: #8a8a11;
+    background-color: rgba(255, 255, 0, 0.53);
+    border-radius: 10px;
+    padding: 3px 5px;
+  }
+}

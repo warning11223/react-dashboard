@@ -1,0 +1,74 @@
+.singlePage {
+  display: flex;
+
+  &__info {
+    margin: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: auto;
+    padding: 20px;
+    position: relative;
+    flex: 2.7;
+
+    &-title {
+      font-size: 30px;
+      color: #727272;
+
+    }
+
+    &-up {
+      display: flex;
+      justify-content: start;
+      align-items: center;
+    }
+    &-btn {
+      position: absolute;
+      top: 0;
+      right: 0;
+      margin: 0;
+      color: purple;
+      background-color: rgba(128, 0, 128, 0.4);
+      padding: 10px;
+      border-radius: 0px 0px 0px 5px;
+
+    }
+    
+    &-down {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 40px;
+
+      &-avatar {
+        width: 220px;
+        height: 220px;
+        border-radius: 50%;
+        object-fit: cover;
+
+      }
+      &-title {
+        font-size: 3rem;
+        margin: 0;
+        font-weight: bold;
+        color: #727272;
+
+      }
+      &-desc {
+        font-size: 20px;
+
+      }
+      
+    }
+
+  }
+
+  &__chartbar {
+    flex: 5;
+    margin: 0 15px 0 0;
+
+  }
+}
+.tableContainer {
+  margin: 15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}

@@ -1,0 +1,87 @@
+.chartbar {
+  margin-top: 15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  text-align: center;
+  flex: 2.2;
+
+  .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    color: #858585;
+    padding: 0px 20px 0px 20px;
+
+    &__icon {
+      font-size: 2rem;
+      cursor: pointer;
+    }
+
+  }
+
+  &__price {
+    color: rgba(31, 31, 31, 0.93);
+
+  }
+
+  &__container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+
+    &-title {
+      color: #858585;
+      font-size: 23px;
+      margin: 0;
+
+    }
+    &-flex {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+      margin-bottom: 30px;
+      font-size: 20px;
+
+      &.green {
+        color: green;
+      }
+
+      &.red {
+        color: red;
+      }
+
+    }
+    &-icon {
+      font-size: 30px;
+
+    }
+  }
+  &__title {
+    margin: 0;
+    margin-bottom: 10px;
+    color: #858585;
+    font-size: 1.6rem;
+
+  }
+  &__price {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+
+  }
+  &__text {
+    font-size: 20px;
+    max-width: 500px;
+    color: #858585;
+  }
+  &__container2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+  }
+}

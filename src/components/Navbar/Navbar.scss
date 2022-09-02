@@ -1,0 +1,66 @@
+.navbar__container {
+  height: 35.5px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 25px 15px 25px;
+  border-bottom: 0.5px solid #dcdcdc;
+
+}
+.navbar__left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  border: 0.5px solid lightgray;
+  padding: 3px;
+  font-size: 27px;
+
+  &-input {
+    border: none;
+    outline: none;
+    font-size: 20px;
+    color: #4b4b4b;
+  }
+
+  &-icon {
+    color: #4b4b4b;
+  }
+
+
+}
+
+.notifications {
+  height: 17px;
+  width: 17px;
+  background-color: #ff0000;
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -3px;
+  right: -3px;
+}
+
+.navbar__right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  font-size: 28px;
+  padding-right: 30px;
+  color: #3d3d3d;
+
+  &-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+  }
+}

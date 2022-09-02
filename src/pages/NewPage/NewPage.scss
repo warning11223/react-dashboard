@@ -1,0 +1,88 @@
+.newPage {
+
+  &__title {
+    margin: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px 20px 20px 50px;
+    color: #676767;
+    font-size: 2rem;
+
+
+  }
+  &__item {
+    margin: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+
+    &-img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 50%;
+
+
+    }
+
+  }
+
+  &__formInput {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    &-container {
+      display: flex;
+      justify-content: space-around;
+      gap: 5rem;
+      padding: 40px 0;
+
+
+
+    }
+
+    &-leftside {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+
+    }
+    &-rightside {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+
+    }
+
+
+    input {
+      border: none;
+      border-bottom: 1px solid #676767;
+      font-size: 2rem;
+      outline: none;
+      transition: all .3s linear;
+    }
+    input::placeholder {
+      font-size: 1.5rem;
+
+    }
+    input:focus {
+      border-bottom: 1px solid #3900ff;
+
+    }
+
+    &-btn {
+      background: #07e180;
+      border: none;
+      cursor: pointer;
+      padding: 20px 80px;
+      color: #ffffff;
+      font-size: 1.5rem;
+      margin-bottom: 40px;
+    }
+  }
+
+}
